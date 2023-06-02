@@ -1,4 +1,116 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <!-- Ваше решение -->
+  <head>
+    <meta charset="utf-8">
+    <title>Задание 2</title>
+      <style type="text/css">
+          * {
+              margin: 0px;
+              padding: 0px;
+              box-sizing: border-box;
+            }
+
+            header {
+              background: red;
+              text-align: center;
+              color: #fff;
+            }
+
+
+            header h1 {
+              height: 50px;
+            }
+
+            header nav {
+              background: orange;
+              height: 50px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            header nav ul {
+              display: flex;
+              gap: 40px;
+            }
+
+            header nav ul li {
+              list-style-type: none;
+            }
+
+            header nav ul li a {
+              color: #fff;
+            }
+
+            main {
+              background: green;
+              height: 100%;
+              width: 100%;
+              display: flex;
+              flex-direction: column;
+            }
+
+            article {
+              padding: 30px;
+              background: blue;
+              color: #fff;
+              margin: 10px 20px;
+            }
+
+            main article:first-child {
+              margin-bottom: 0px;
+            }
+
+            article ul {
+              padding: 0 0 0 20px;
+            }
+
+            article h2{
+              margin-bottom: 30px;
+            }
+
+            footer {
+              background: purple;
+              color: #fff;
+              text-align: center;
+              height: 50px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>Header</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Navigation 1</a></li>
+          <li><a href="#">Navigation 2</a></li>
+          <li><a href="#">Navigation 3</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2>Article 1</h2>
+        <ul>
+          <li>Оригинальная трилогия</li>
+          <li>Трилогия приквелов</li>
+          <li>Трилогия сиквелов</li>
+        </ul>
+      </article>
+      <article>
+        <h2>Article 2</h2>
+        <ol>
+          <li>Эпизод IV — Новая надежда</li>
+          <li>Эпизод V — Империя наносит ответный удар</li>
+          <li>ТЭпизод VI — Возвращение джедая</li>
+        </ol>
+      </article>
+    </main>
+    <footer>Footer</footer>
+  </body>
 </html>
+
+
